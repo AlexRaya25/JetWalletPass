@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JetWalletPass</string>
+    <string name="google_wallet_status_unavailable" translatable="false">Unfortunately, Google Wallet is not available on this phone.</string>
+    <string name="add_google_wallet_success" translatable="false">The pass was added successfully!</string>
+</resources>
