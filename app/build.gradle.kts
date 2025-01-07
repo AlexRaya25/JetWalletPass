@@ -49,7 +49,6 @@ android {
         }
     }
     packagingOptions {
-        // Excluir el archivo META-INF/DEPENDENCIES que está causando el conflicto
         exclude ("META-INF/DEPENDENCIES")
     }
 }
@@ -82,4 +81,8 @@ dependencies {
 
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    //coil
+    implementation ("io.coil-kt:coil:2.4.0")
+    implementation ("io.coil-kt:coil-compose:2.4.0")
 }
